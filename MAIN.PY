@@ -1,8 +1,8 @@
-from datetime import date , time , datetime
+from datetime import date , date
 
 today = date.today()
-now = datetime.now()
+now = date.now()
 print("today's date is", today)
-print("\ncurrent date and time is ", now)
+print("\ncurrent date  is ", now)
 
 print("\ndate componts", today.year,today.month,today.day)
